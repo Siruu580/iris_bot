@@ -5,8 +5,8 @@ import time
 from iris.decorators import *
 import os
 
-Secure_1PSID = os.getenv("SECURE_1PSID")
-Secure_1PSIDTS = os.getenv("SECURE_1PSIDTS")
+Secure_1PSID = "SECURE_1PSID"
+Secure_1PSIDTS = "SECURE_1PSIDTS"
 
 @has_param
 def get_imagen(chat: ChatContext):
