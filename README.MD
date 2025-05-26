@@ -25,7 +25,7 @@
     cd ~
     git clone https://github.com/Siruu580/iris_bot.git
     cd iris_bot
-    python -m venv venv
+    python3 -m venv venv
     
     # 가상 환경 활성화 (Windows의 경우 venv/Scripts/Activate.ps1)
     source venv/bin/activate
