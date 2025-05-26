@@ -23,7 +23,7 @@
     터미널에서 다음 명령어를 실행하세요:
     ```bash
     cd ~
-    git clone https://github.com/dolidolih/iris_bot
+    git clone https://github.com/Siruu580/iris_bot.git
     cd iris_bot
     python -m venv venv
     
