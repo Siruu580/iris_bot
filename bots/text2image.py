@@ -178,8 +178,8 @@ def get_image_from_url(url):
 def get_image_url_from_naver(query):
     url = 'https://openapi.naver.com/v1/search/image'
     headers = {
-        'X-Naver-Client-Id': os.getenv("X_NAVER_CLIENT_ID"),
-        'X-Naver-Client-Secret': os.getenv("X_NAVER_CLIENT_SECRET")
+        'X-Naver-Client-Id': "X_NAVER_CLIENT_ID",
+        'X-Naver-Client-Secret': "X_NAVER_CLIENT_SECRET"
         }
     params = {
         'query' : query,
