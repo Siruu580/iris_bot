@@ -1,7 +1,7 @@
 
 ---
 
-# Iris + IrisPy2 기반 샘플 봇
+# Iris + ~~IrisPy2~~irispy-client 기반 샘플 봇
 
 ### `2025.05.18 변경사항` :
 - 이제 irispy2가 아닌 irispy-client 모듈을 사용합니다. import는 iris로 합니다.
