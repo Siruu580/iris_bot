@@ -25,7 +25,7 @@ def on_message(chat: ChatContext):
     try:
         match chat.message.command:
             
-            case "!hhi":
+            case "!hi":
                 chat.reply(f"Hello {chat.sender.name}")
 
             case "!tt" | "!ttt" | "!프사" | "!프사링":
@@ -82,7 +82,6 @@ def on_newmem(chat: ChatContext):
 def on_delmem(chat: ChatContext):
     #chat.reply(f"Bye {chat.sender.name}")
     pass
-
 
 @bot.on_event("error")
 def on_error(err: ErrorContext):
